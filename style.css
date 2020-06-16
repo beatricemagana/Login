@@ -1,0 +1,48 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(cloud-image.jpg);
+    background-size: cover;
+}
+
+.login-box {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.637);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 4px solid white;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    transform: translate(150%, 50%);
+}
+
+.textbox {
+    width: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid white;
+    transform: translate(15%, 50%);
+}
+
+i {
+    color: white;
+    padding: 10px;
+}
+
+.btn {
+    transform: translate(150%, 150%);
+}
