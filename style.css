@@ -4,25 +4,27 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(cloud-image.jpg);
+    background-position: center;
     background-size: cover;
+     background-attachment: fixed;
 }
 
 .login-box {
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0.788);
     width: 400px;
     height: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #003d66;
 }
 
 .login-box h1 {
     float: left;
     font-size: 40px;
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #002e4d;
     margin-bottom: 20px;
     padding: 10px 0;
     transform: translate(150%, 50%);
@@ -34,12 +36,12 @@ body {
     font-size: 20px;
     padding: 10px 0;
     margin: 8px 0;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #002e4d;
     transform: translate(15%, 50%);
 }
 
 i {
-    color: white;
+    color: #003d66;
     padding: 10px;
 }
 
